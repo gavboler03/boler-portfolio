@@ -15,7 +15,7 @@
       <div class="headshot">
         <img src="assets/profilepic.jpeg" alt="Gavin Boler Headshot" />
       </div>
-      <h1>Gavin Boler</h1>
+      <h1>Gavin Boyer</h1>
       <p>Information Technology</p>
       <div class="social-links">
         <a
@@ -51,7 +51,8 @@
         <ul>
           <li>IT Assistant at the National Fraternal Order of Police</li>
           <li>
-            B.S. Computer Science from Freed-Hardeman University, Class of 2025
+            B.S. Computer Science from Freed-Hardeman University, Class of 2025,
+            3.69 GPA
           </li>
           <li>
             Experienced full-stack developer, proficient in React, FastAPI,
@@ -69,23 +70,22 @@
       <h2 class="coursework__title">Relevant Coursework</h2>
       <div class="coursework__columns">
         <div class="coursework__column">
-          <h3>B.S. Computer Science</h3>
-          <ul>
-            <li>Programming I</li>
-            <li>Programming II</li>
-            <li>Data Structures</li>
-            <li>Algorithms</li>
-            <li>Data Analytics</li>
-            <li>Computer Networks</li>
-            <li>Network Administration and Security</li>
-            <li>Database Systems</li>
-            <li>Mobile App Development</li>
-            <li>Intro to Web Design</li>
-            <li>Advanced Web Design</li>
-            <li>Web Development</li>
-            <li>Human Computer Interaction</li>
-            <li>Cloud Architecture</li>
-          </ul>
+          <p>Programming I</p>
+          <p>Programming II</p>
+          <p>Data Structures</p>
+          <p>Algorithms</p>
+          <p>Data Analytics</p>
+          <p>Computer Networks</p>
+          <p>Human Computer Interaction</p>
+        </div>
+        <div class="coursework__column">
+          <p>Network Administration and Security</p>
+          <p>Database Systems</p>
+          <p>Mobile App Development</p>
+          <p>Intro to Web Design</p>
+          <p>Advanced Web Design</p>
+          <p>Web Development</p>
+          <p>Cloud Architecture</p>
         </div>
       </div>
     </section>
@@ -93,6 +93,16 @@
     <section class="skills">
       <h2 class="skills__title">Skills</h2>
       <div class="skills__grid">
+        <div class="skills__item">
+          <h3 class="skills__heading" onclick="toggleSkill('skill-js')">
+            Node.js
+          </h3>
+          <p class="skills__details" id="skill-js"></p>
+        </div>
+        <div class="skills__item">
+          <h3 class="skills__heading" onclick="toggleSkill('skill-js')">C#</h3>
+          <p class="skills__details" id="skill-js"></p>
+        </div>
         <div class="skills__item">
           <h3 class="skills__heading" onclick="toggleSkill('skill-js')">
             React
@@ -119,7 +129,7 @@
         </div>
         <div class="skills__item">
           <h3 class="skills__heading" onclick="toggleSkill('skill-php')">
-            AWS
+            AWS RDS
           </h3>
           <p class="skills__details" id="skill-php"></p>
         </div>

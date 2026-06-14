@@ -9,6 +9,10 @@
   --light-color: #eeeeee;
 }
 
+li {
+  padding-bottom: 5px;
+}
+
 * {
   margin: 0;
   padding: 0;
